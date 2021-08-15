@@ -1,0 +1,6 @@
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "stk_sel"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "cpu_ticks"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "task1"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "task2"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "task3"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "&tcb[0].stk"
