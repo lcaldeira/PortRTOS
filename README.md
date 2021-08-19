@@ -1,4 +1,4 @@
-# Port de um RTOS
+# Porte de um RTOS
 
 Exemplo de porte de um sistema operacional de tempo real (RTOS) simples para 3 arquiteturas de microcontrolador:
 - HCS08;
@@ -14,5 +14,5 @@ O SO é desenvolvido inicialmente para o HCS08, da Freescale, e simulado na IDE 
 Os arquivos e projetos estão organizados em 4 pastas.
 
 1) a pasta `RTOS` contém os arquivos do SO: `os.h` e `os.c`, os quais definem a instauração de tarefas e o funcionamento do escalonador;
-2) as pastas `micro 1`, `micro 2` e `micro 3` referem-se aos 3 portes, e dentro de cada uma há o projeto e o arquivo de configuração do RTOS, `config.h`;
+2) as pastas `micro 1`, `micro 2` e `micro 3` referem-se aos 3 portes, e dentro de cada uma há o projeto e o arquivo de configuração do SO, `config.h`;
 3) dentro da pasta `RTOS`, há 3 pastas, cada uma referente a um porte, contendo arquivos `port.h`e `port.c` conforme a arquitetura do processador.
