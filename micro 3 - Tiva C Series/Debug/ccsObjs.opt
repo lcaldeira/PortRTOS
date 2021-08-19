@@ -1,0 +1,1 @@
+"./_os.o" "./_port.o" "./main.o" "./tm4c1294ncpdt_startup_ccs_gcc.o" -Wl,-T"../tm4c1294ncpdt.lds" -Wl,--start-group "/home/lucas/ti/tivaware/driverlib/gcc/libdriver.a" -Wl,--end-group 
